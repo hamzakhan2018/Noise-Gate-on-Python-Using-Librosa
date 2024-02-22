@@ -3,9 +3,10 @@ Overview
 This Python script demonstrates how to implement a noise gate using the Librosa library. A noise gate is a signal processing technique used to reduce the level of audio signals below a certain threshold. In this implementation, the script loads an audio file, analyzes its spectrogram, identifies noisy frames based on a given threshold, and filters out the noise to produce a cleaner audio signal.
 
 #Requirements
-Python 3.x
-Librosa library (can be installed via pip: pip install librosa)
-NumPy library
+
+1) Python 3.x
+2) Librosa library (can be installed via pip: pip install librosa)
+3) NumPy library
 
 #Usage
 1) Install the required dependencies if not already installed.
