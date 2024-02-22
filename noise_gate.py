@@ -30,7 +30,7 @@ def apply_noise_gate(audio_path, threshold):
     return filtered_audio
 
 # Example usage
-audio_path = 'D:/audio_features/assets/cat_109.wav'
+audio_path = 'D:/audio_features/assets/audio_to_gate.wav'
 threshold = 0.1  # Adjust this threshold according to your audio
 
 filtered_audio = apply_noise_gate(audio_path, threshold)
